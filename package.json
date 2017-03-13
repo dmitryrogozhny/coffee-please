@@ -1,0 +1,55 @@
+{
+  "name": "coffee-please",
+  "version": "1.0.0",
+  "description": "Find the best coffee on the road.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preerstart": "npm run build-server",
+    "start": "node dist/index.js",
+    "build-server": "tsc --project config/server-tsconfig.json"
+  },
+  "keywords": [
+    "coffee"
+  ],
+  "author": "Dmitry Rogozhny",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "classnames": "^2.2.5",
+    "debug": "^2.6.1",
+    "express": "^4.14.1",
+    "mongodb": "^2.2.22",
+    "mongoose": "^4.8.2",
+    "morgan": "^1.8.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "shortid": "^2.2.6",
+    "superagent": "^3.4.1",
+    "yandex-map-react": "^1.0.0-beta.14"
+  },
+  "devDependencies": {
+    "@types/body-parser": "0.0.33",
+    "@types/classnames": "0.0.32",
+    "@types/debug": "0.0.29",
+    "@types/express": "^4.0.35",
+    "@types/mongodb": "^2.1.40",
+    "@types/mongoose": "^4.7.5",
+    "@types/morgan": "^1.7.32",
+    "@types/react": "^15.0.9",
+    "@types/react-dom": "^0.14.23",
+    "@types/shortid": "0.0.28",
+    "@types/superagent": "^2.0.36",
+    "awesome-typescript-loader": "^3.0.4-rc.0",
+    "breakpoint-sass": "^2.7.1",
+    "css-loader": "^0.26.1",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^5.0.1",
+    "source-map-loader": "^0.1.6",
+    "style-loader": "^0.13.1",
+    "susy": "^2.2.12",
+    "tslint": "^4.4.2",
+    "typescript": "^2.1.6",
+    "webpack": "^2.2.1"
+  }
+}

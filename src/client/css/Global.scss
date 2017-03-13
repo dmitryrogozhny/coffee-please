@@ -1,0 +1,17 @@
+@import "~susy/sass/susy";
+@import "~breakpoint-sass";
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+$susy: (
+  columns: 12,
+  gutters: 0,
+
+  global-box-sizing: border-box,
+//   debug: (image: show)
+);
+
+@include border-box-sizing;

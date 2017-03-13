@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "lib": [
+            "es2016",
+            "dom"
+        ],
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "declaration": true,
+        "jsx": "react",
+        "outDir": "./dist/public/"
+
+        // "typeRoots": ["typings"],
+        // "types": [
+        //     "yandex-map-react"
+        // ]
+    },
+    "include": [
+        "./src/client/**/*"
+    ]
+}
